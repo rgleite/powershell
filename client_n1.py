@@ -1,9 +1,13 @@
 
 
 import sys
+import time
 
 def main(arg1):
-    print(f"Argumento 1: {arg1}")
+    for i in range(100):
+        print(f"\nClient1: {i}\n")
+        time.sleep(0.1)
+        print(f"Argumento 1: {arg1}\n")
 
 
 if __name__ == "__main__":
